@@ -121,6 +121,10 @@ event.stopPropagation();
             
             instance.show();
             
+          
+          instance.element().querySelector('.original-image').addEventListener('click', function() {
+        instance.close();
+          })
             
         };
     }
